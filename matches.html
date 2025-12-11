@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - Football Agency Sierra Leone</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">FASL</div>
+        <h1 class="site-title">Football Agency Sierra Leone</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li class="active"><a href="matches.html">Matches</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <section class="page-title-banner">
+        <h2>Leone Stars Fixtures & Results</h2>
+        <p>Follow the Sierra Leone National Team (Leone Stars) in World Cup Qualifiers and International Friendlies.</p>
+    </section>
+
+    <section class="matches-container">
+        <div class="matches-tabs">
+            <button class="tab-button" onclick="openMatchTab('upcoming', this)">Upcoming Fixtures (4)</button>
+            <button class="tab-button" onclick="openMatchTab('results', this)">Recent Results (3)</button>
+        </div>
+
+        <div id="upcoming" class="match-tab-content">
+            <h3>Future Leone Stars Games</h3>
+            
+            <article class="match-card fixture-card">
+                <div class="match-info">
+                    <p class="date">Friday, Jan 10th, 2026 | 17:00 GMT</p>
+                    <div class="teams">
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                        <span class="vs">vs</span>
+                        <span class="team-name">Congo 🇨🇬</span>
+                    </div>
+                </div>
+                <p class="location">Match Type: World Cup Qualifier</p>
+            </article>
+
+            <article class="match-card fixture-card">
+                <div class="match-info">
+                    <p class="date">Tuesday, Jan 14th, 2026 | 16:30 GMT</p>
+                    <div class="teams">
+                        <span class="team-name">Mauritania 🇲🇷</span>
+                        <span class="vs">vs</span>
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                    </div>
+                </div>
+                <p class="location">Match Type: World Cup Qualifier</p>
+            </article>
+            
+            <article class="match-card fixture-card">
+                <div class="match-info">
+                    <p class="date">Wednesday, Mar 25th, 2026 | 18:00 GMT</p>
+                    <div class="teams">
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                        <span class="vs">vs</span>
+                        <span class="team-name">Liberia 🇱🇷</span>
+                    </div>
+                </div>
+                <p class="location">Match Type: nternational Friendly</p>
+            </article>
+
+            <article class="match-card fixture-card">
+                <div class="match-info">
+                    <p class="date">Sunday, Mar 29th, 2026 | 19:30 GMT</p>
+                    <div class="teams">
+                        <span class="team-name">Morocco 🇲🇦</span>
+                        <span class="vs">vs</span>
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                    </div>
+                </div>
+                <p class="location">Match Type: International Friendly</p>
+            </article>
+            
+        </div>
+
+        <div id="results" class="match-tab-content">
+            <h3>Recent Match Results (3 Matches)</h3>
+
+            <article class="match-card result-card win">
+                <div class="match-info">
+                    <p class="date">Sunday, Nov 24th, 2025</p>
+                    <div class="teams">
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                        <span class="score">2 - 1</span>
+                        <span class="team-name">Burkina Faso 🇧🇫</span>
+                    </div>
+                </div>
+                <p class="scorer">Goals: K. Kamara, Bundu</p>
+            </article>
+
+            <article class="match-card result-card draw">
+                <div class="match-info">
+                    <p class="date">Wednesday, Nov 20th, 2025</p>
+                    <div class="teams">
+                        <span class="team-name">Guinea-Bissau 🇬🇼</span>
+                        <span class="score">0 - 0</span>
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                    </div>
+                </div>
+                <p class="scorer">Defense: M. Kamara(Clean Sheet)</p>
+            </article>
+            
+            <article class="match-card result-card loss">
+                <div class="match-info">
+                    <p class="date">Saturday, Oct 11th, 2025</p>
+                    <div class="teams">
+                        <span class="team-name">Egypt 🇪🇬</span>
+                        <span class="score">3 - 1</span>
+                        <span class="team-name">Sierra Leone 🇸🇱</span>
+                    </div>
+                </div>
+                <p class="scorer">Goal: R. Michael</p>
+            </article>
+            
+        </div>
+    </section>
+
+    <script src="js/script.js"></script> 
+
+    ---
+
+    <footer class="main-footer">
+        <div class="social-links">
+            <a href="#">F</a>
+            <a href="#">T</a>
+            <a href="#">I</a>
+        </div>
+        <p>&copy;2025 Football Agency Sierra Leone</p>
+    </footer>
+
+</body>
+</html>
